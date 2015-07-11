@@ -47,5 +47,5 @@ def send_file(f):
     sock.send('TRANSFER_COMPLETE') # Send an indicatior so the server knows when to stop writing to a file and start another one
 
 sock.shutdown(socket.SHUT_WR)
-socket.close()
+sock.close()
 
