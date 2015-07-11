@@ -8,6 +8,8 @@
 # lock -- locks the current repo from making future synchs
 # list_repos -- lists the repos avalible on the source control server
 
+from __future__ import print_function
+
 import time
 import os.path
 import socket
