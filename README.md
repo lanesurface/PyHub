@@ -7,6 +7,7 @@ Installation:
  * To set up the server, type `python PyHub_Server.py`
  * To set up a client, type `python PyHub_Client localhost:5024` and replace localhost with the server's IP address
  * See the instructions below for setting up a repo
+ 
 Setting Up a Repository:
  * Change to the directory that your project is located in
  * Initialize the directory with `init`
